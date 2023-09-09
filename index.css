@@ -1,6 +1,6 @@
 body {
   margin: auto;
-  background-image: url("pexels-fabian-reitmeier-707915.jpg");
+  background-image: url("pexels-eberhard-grossgasteiger-1367192.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -10,6 +10,11 @@ header {
   height: 150px;
   margin-top: 40px;
   margin-right: 80px;
+}
+
+#shopCart {
+  width: 25px;
+  height: 25px;
 }
 
 #oddDuck {
@@ -23,46 +28,64 @@ header {
 
 #oddDuckSelect1 {
   padding-right: 30px;
+  color: aliceblue;
 }
 
 #oddDuckSelect2 {
   padding-right: 30px;
+  color: aliceblue;
 }
 
 #oddDuckSelect3 {
   padding-right: 30px;
+  color: aliceblue;
 }
 
 #productssec {
   display: flex;
+  justify-content: center;
 }
 
 .odproduct {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  justify-content: space-evenly;
+  align-self: center;
   background-color: gray;
   width: 350px;
   height: 350px;
   margin: 100px;
+  position: relative;
 }
 
 #prodwall {
-  margin: 60px;
+  align-self: center;
+  margin-top: 30px;
   width: 200px;
   height: 200px;
   background-color: red;
+  margin-bottom: 10px;
 }
 
 #prodsunglass {
+  align-self: center;
   width: 200px;
   height: 200px;
-  margin: 60px;
+  margin-top: 30px;
   background-color: orange;
 }
 
 #prodwwatch {
+  align-self: center;
   width: 200px;
   height: 200px;
-  margin: 60px;
+  margin-top: 30px;
   background-color: magenta;
+}
+
+#prodButt {
+  width: 100px;
+  height: 40px;
+  align-self: center;
 }
