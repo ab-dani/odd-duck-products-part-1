@@ -52,22 +52,25 @@ function displayRandomProductImages() {
 
 displayRandomProductImages();
 
+function handleImageClick(event) {
+  const clickedImage = event.target;
+  const imageAlt = clickedImage.alt;
 
+  const selectedProduct = products.find(
+    (product = product.imageURL === imageAlt)
+  );
 
+  if (selectedProduct) {
+    selectedProduct.clickCount++;
 
-function handleImageClick(event){
+    console.log("Clicked on image: ${imageAlt}");
+  }
 
-    const clickedImage = event.target;
-    const imageAlt = clickedImage.alt;
-
-
-    const selectedProduct = products.find((product) = > product.imageURL === imageAlt);
-
-    if (selectedProduct){
-        selectedProduct.clickCount++;
-
-        console.log('Clicked on image: ${imageAlt}')
-    }
-
-    generateAndDisplayNewProducts();
+  generateAndDisplayNewProducts();
 }
+
+const productContainer = document.getElementById("productContainer");
+
+productContainer.addEventListener("click", handleImageClick);
+
+displayRandomProductImages();
