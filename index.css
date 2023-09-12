@@ -12,6 +12,23 @@ header {
   margin-right: 80px;
 }
 
+.product-info {
+  display: flex;
+  flex-direction: column;
+  align-self: start;
+  margin-left: 20px;
+}
+h1 {
+  font-size: 40px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+h3 {
+  font-size: 24px;
+  margin-top: 0px;
+}
+
 #shopCart {
   width: 25px;
   height: 25px;
@@ -43,49 +60,66 @@ header {
 
 #productssec {
   display: flex;
-  justify-content: center;
+  justify-content:left;
 }
 
 .odproduct {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  justify-content: space-evenly;
-  align-self: center;
+  justify-content: left;
+  align-items: left;
   background-color: gray;
-  width: 350px;
-  height: 350px;
+  width: 450px;
+  height: 450px;
   margin: 100px;
-  position: relative;
+}
+
+.button-container {
+  display: flex;
+ flex-direction: row;
+ margin-left: 20px;
 }
 
 #prodwall {
-  align-self: center;
+  background-image: url(pexels-neeraj-raj-2767612.jpg);
+  background-size: cover;
+  margin-right: 30px;
   margin-top: 30px;
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   background-color: red;
-  margin-bottom: 10px;
+  margin-left: 20px;
 }
 
 #prodsunglass {
-  align-self: center;
-  width: 200px;
-  height: 200px;
+  background-image: url(pexels-antony-trivet-9898270.jpg);
+  background-size: cover;
+  margin-right: 30px;
+  margin-left: 20px;
+  width: 250px;
+  height: 250px;
   margin-top: 30px;
   background-color: orange;
 }
 
 #prodwwatch {
-  align-self: center;
-  width: 200px;
-  height: 200px;
+  background-image: url(pexels-josh-withers-15763948.jpg);
+  background-size: cover;
+  margin-right: 30px;
+  margin-left: 20px;
+  width: 250px;
+  height: 250px;
   margin-top: 30px;
   background-color: magenta;
 }
 
-#prodButt {
+#prodButt1,
+#prodButt2,
+#prodButt3,
+#buyProd1,
+#buyProd2,
+#buyProd3 {
   width: 100px;
   height: 40px;
-  align-self: center;
+  
 }
