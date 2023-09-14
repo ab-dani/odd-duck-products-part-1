@@ -1,6 +1,6 @@
 body {
   margin: auto;
-  background-image: url("pexels-eberhard-grossgasteiger-1367192.jpg");
+  background-image: url("25.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -69,8 +69,8 @@ h3 {
   justify-content: left;
   align-items: left;
   background-color: gray;
-  width: 450px;
-  height: 450px;
+  width: 350px;
+  height: 350px;
   margin: 100px;
 }
 
@@ -80,38 +80,10 @@ h3 {
  margin-left: 20px;
 }
 
-#prodwall {
-  background-image: url(pexels-neeraj-raj-2767612.jpg);
-  background-size: cover;
-  margin-right: 30px;
-  margin-top: 30px;
-  width: 250px;
-  height: 250px;
-  background-color: red;
-  margin-left: 20px;
-}
 
-#prodsunglass {
-  background-image: url(pexels-antony-trivet-9898270.jpg);
-  background-size: cover;
-  margin-right: 30px;
-  margin-left: 20px;
-  width: 250px;
-  height: 250px;
-  margin-top: 30px;
-  background-color: orange;
-}
 
-#prodwwatch {
-  background-image: url(pexels-josh-withers-15763948.jpg);
-  background-size: cover;
-  margin-right: 30px;
-  margin-left: 20px;
-  width: 250px;
-  height: 250px;
-  margin-top: 30px;
-  background-color: magenta;
-}
+
+
 
 #prodButt1,
 #prodButt2,

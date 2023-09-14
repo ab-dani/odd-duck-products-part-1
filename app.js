@@ -1,24 +1,22 @@
 "use strict";
 
-function Product(name, price, imageURL) {
+function Product(name, price, imageURL, timeImage) {
   this.name = name;
   this.price = price;
   this.imageURL = imageURL;
+  this.timeImage = timeImage;
 }
 
-const sunglasses = new Product(
-  "Sunglasses",
-  20,
-  "pexels-antony-trivet-9898270.jpg"
-);
+const sunglasses = new Product("Sunglasses", 20, "22.jpg",1);
 
-const watch = new Product("Watch", 20, "pexels-josh-withers-15763948.jpg");
+const watch = new Product("Watch", 20, "23.jpg", 1);
 
-const wallet = new Product("Wallet", 20, "pexels-neeraj-raj-2767612.jpg");
+const wallet = new Product("Wallet", 20, "23.jpg", 1);
 
 console.log(sunglasses.name);
 console.log(sunglasses.price);
 console.log(sunglasses.imageURL);
+console.log(sunglasses.timeImage);
 
 function getRandomInt(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
@@ -42,7 +40,7 @@ function displayRandomProductImages() {
   );
 
   uniqueImageNumbers.forEach((imageNumber) => {
-    const imageUrl = "images/product${imageNumber}.jpg";
+    const imageUrl = "${22}.jpg";
     const imageElement = document.createElement("img");
     imageElement.src = imageUrl;
     imageElement.alt = "Product ${imageNumber}";
